@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="3.1">
+
+    <!-- Applicant Servlet -->
+    <servlet>
+        <servlet-name>Applicant</servlet-name>
+        <servlet-class>servletproject.Applicant</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Applicant</servlet-name>
+        <url-pattern>/Applicant</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- Fee Servlet -->
+    <servlet>
+        <servlet-name>Fee</servlet-name>
+        <servlet-class>servletproject.Fee</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Fee</servlet-name>
+        <url-pattern>/Fee</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
